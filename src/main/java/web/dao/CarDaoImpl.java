@@ -7,7 +7,6 @@ import web.model.Car;
 import java.util.ArrayList;
 import java.util.List;
 @Repository
-@Component
 public class CarDaoImpl implements CarDao {
     List<Car> carList = new ArrayList<>();
 
