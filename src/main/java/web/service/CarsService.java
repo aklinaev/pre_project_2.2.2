@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
-public class CarsService {
+public class CarsService implements CarService {
     List<Car> carList = new ArrayList<>();
 
     {

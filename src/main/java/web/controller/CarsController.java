@@ -11,23 +11,6 @@ import web.service.CarsService;
 
 import java.util.List;
 
-//@Controller
-//@RequestMapping("/cars")
-//public class CarsController {
-//
-//    private final CarsService carsService;
-//
-//    @Autowired
-//    public CarsController(CarsService carsService) {
-//        this.carsService = carsService;
-//    }
-//
-//    @GetMapping
-//    public String printCars(ModelMap model) {
-//        model.addAttribute("cars", carsService.getCars(5));
-//        return "cars";
-//    }
-//}
 
 @Controller
 @RequestMapping("/cars")
